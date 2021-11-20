@@ -1,0 +1,7 @@
+.worksBlock{
+    height: 100vh;
+    background-color: #F1EC9B;
+}
+.container{
+    justify-content: space-between;
+}

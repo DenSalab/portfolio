@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed darkslategrey;
+    width: 300px;
+    margin-right: 15px;
+}
+
+.navbar > a{
+    text-decoration: none;
+}
+.navbar > a:hover{
+    color: red;
+}

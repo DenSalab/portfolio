@@ -1,0 +1,21 @@
+.remoteWorkBlock{
+    height: 50vh;
+    background-color: #DDC275;
+    display: flex;
+    align-items: center;
+}
+.container{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.container > span{
+    margin-top: 10px;
+}

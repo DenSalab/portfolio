@@ -1,0 +1,40 @@
+.contactsBlock{
+    height: 100vh;
+    background-color: #F1EC9B;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+.form{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 70%;
+    width: 50%;
+    padding: 5px;
+    background-color: #DDC275;
+    display: flex;
+}
+.form > input{
+    outline: 0;
+    outline-offset: 0;
+}
+
+.form > textarea{
+    width: calc(100% - 5px);
+    height: 60%;
+    resize: none;
+    outline: 0;
+    outline-offset: 0;
+}
+.button{
+    background-color: #DDC275;
+    padding: 8px 12px;
+    cursor: pointer;
+}
