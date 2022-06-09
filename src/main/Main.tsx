@@ -2,19 +2,17 @@ import React from "react";
 import style from './Main.module.css';
 import styleContainer from '../common/styles/Container.module.css';
 
-type MainPropsType = {};
-
- const Main = (props: MainPropsType) => {
+const Main = () => {
     return (
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
-                <div className={style.mainText}>
+                <div className={style.text}>
                     <span>Welcome</span>
-                    <h1>My name is Salabash Denis</h1>
-                    <p>But everybody calls me Sebastian</p>
+                    <h1>My name is <br/>Luke Skywalker</h1>
+                    <p>I’m here to rescue you.</p>
                 </div>
-                <div className={style.mainPhoto}>
-                    My Photo
+                <div className={style.photo}>
+                    <span>My Photo</span>
                 </div>
             </div>
         </div>

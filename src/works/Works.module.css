@@ -1,6 +1,8 @@
 .worksBlock{
-    height: 100vh;
-    background-color: #F1EC9B;
+    min-height: 100vh;
+    background-color: #BAEAD6;
+    display: flex;
+    align-items: center;
 }
 .container{
     justify-content: space-between;

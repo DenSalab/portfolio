@@ -1,21 +1,27 @@
-.remoteWorkBlock{
-    height: 50vh;
-    background-color: #DDC275;
+.remoteWorkBlock {
+    min-height: 30vh;
+    background-color: #5EDDC1;
     display: flex;
     align-items: center;
 }
-.container{
-    height: 80%;
+
+.container {
+    min-height: 150px;
     display: flex;
     flex-direction: column;
 }
 
-.social{
+.social {
     display: flex;
-    width: 400px;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
 }
 
-.container > span{
-    margin-top: 10px;
+.container > h3 {
+    color: #F74902;
+}
+
+.container > span {
+    color: #3A4972;
 }

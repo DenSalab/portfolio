@@ -1,11 +1,13 @@
 import style from './Header.module.css';
 import {Navbar} from "../navbar/Navbar";
+import container from '../common/styles/Container.module.css';
 
-type HeaderPropsType = {};
-const Header = (props: HeaderPropsType) => {
+const Header = () => {
     return (
-        <div className={style.header}>
-            <Navbar/>
+        <div className={style.header} id={'home'}>
+            <div className={`${container.container} ${style.container}`}>
+                <Navbar/>
+            </div>
         </div>
     )
 }

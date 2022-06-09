@@ -5,6 +5,9 @@
     margin: 0 auto;
     width: 90%;
     height: 100%;
-    border: 1px dashed grey;
     flex-wrap: wrap;
+
+    /*temporary styles*/
+    border: 1px dashed #3A4972;
+    box-sizing: border-box;
 }

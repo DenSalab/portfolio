@@ -1,15 +1,29 @@
 .mainBlock {
-    background-color: #F1EC9B;
-    height: 100vh;
+    background-color: #BAEAD6;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
-.mainText {
-    width: 300px;
-    background-color: #A6825B;
+.text {
+    box-sizing: border-box;
+    min-width: 360px;
+    background-color: #5EDDC1;
+    padding: 10px;
+    color: #3A4972;
+}
+.text > p, .text > span{
+    color: #F74902;
 }
 
-.mainPhoto {
-    width: 300px;
+.photo {
+    min-width: 360px;
     height: 400px;
-    background-color: #A6825B;
+    background-color: #3A4972;
+
+    /*temporary styles*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BAEAD6;
 }

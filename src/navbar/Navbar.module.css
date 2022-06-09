@@ -1,14 +1,21 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
-    border: 1px dashed darkslategrey;
-    width: 300px;
-    margin-right: 15px;
+    width: 360px;
+    margin-right: 20px;
+
+    /*temporary styles*/
+    border: 1px dashed #3A4972;
+    box-sizing: border-box;
 }
 
-.navbar > a{
+a {
     text-decoration: none;
+    /*color: #3A4972;*/
+    color: #F74902;
+    text-transform: uppercase;
+    font-size: 1.2em;
 }
-.navbar > a:hover{
-    color: red;
+a:hover {
+    color: #f59067;
 }

@@ -1,11 +1,14 @@
 .skillBlock {
-    background-color: #A6825B;
+    background-color: #BAEAD6;
     width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 10px;
+    margin: 10px 0;
+    /*color: #3A4972;*/
+    color: #F74902;
 }
 .icon{
     height: 50px;
@@ -14,9 +17,13 @@
     font-size: 2em;
     line-height: 1.5em;
     border-radius: 50%;
-    background-color: #F1EC9B;
+    /*background-color: #5EDDC1;*/
+    background-color: #3A4972;
+
+    color: #BAEAD6;
 }
 
 .description{
     text-align: center;
+    color: #000;
 }

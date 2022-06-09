@@ -1,6 +1,9 @@
+.container{
+    justify-content: end !important;
+}
 .header{
     height: 80px;
-    background-color: #DDC275;
+    background-color: #5EDDC1;
     display: flex;
     justify-content: flex-end;
     align-items: center;

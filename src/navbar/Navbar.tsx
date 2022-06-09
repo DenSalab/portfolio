@@ -1,13 +1,12 @@
 import style from './Navbar.module.css';
 
-type NavbarPropsType = {};
-export const Navbar = (props: NavbarPropsType) => {
+export const Navbar = () => {
     return (
         <div className={style.navbar}>
-            <a href="">Главая</a>
-            <a href="">Скиллы</a>
-            <a href="">Работы</a>
-            <a href="">Контакты</a>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#works">works</a>
+            <a href="#contacts">Contacts</a>
         </div>
     )
 }

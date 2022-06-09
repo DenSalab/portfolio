@@ -1,5 +1,6 @@
 import React from "react";
 import style from './Work.module.css';
+import Button from "../../common/Button/Button";
 
 type WorkPropsType = {
     title: string
@@ -9,7 +10,9 @@ type WorkPropsType = {
 const Work = (props: WorkPropsType) => {
     return (
         <div className={style.workBlock}>
-            <div className={style.image}><span>Смотреть</span></div>
+            <div className={style.imageContainer}>
+                <Button title={'show'} callback={()=> alert('good job!')}/>
+            </div>
             <div className={style.description}>
                 <h3>{props.title}</h3>
                 <span>{props.description}</span>

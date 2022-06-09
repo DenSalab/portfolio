@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     height: 50vh;
-    background-color: #DDC275;
+    background-color: #5EDDC1;
+    color: #3A4972;
 }
 .container{
     height: 40%;
@@ -10,7 +11,16 @@
 }
 
 .button{
-    background-color: #A6825B;
-    padding: 8px 12px;
+    width: 100px;
+    height: 20px;
+    background-color: #F7D3B5;
+    color: #F74902;
+    padding: 10px 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+}
+.button:hover{
+    background-color: #f8ddc9;
     cursor: pointer;
 }

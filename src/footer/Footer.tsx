@@ -7,14 +7,14 @@ const Footer = () => {
     return (
         <div className={style.remoteWorkBlock}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <h3>Denis Salabash</h3>
+                <h3>Luke Skywalker</h3>
                 <div className={style.social}>
                     <Social title={'VK'}/>
                     <Social title={'FB'}/>
                     <Social title={'In'}/>
                     <Social title={'Ok'}/>
                 </div>
-                <span>© 2050 Все права защищены</span>
+                <span>© “You’ll find I’m full of surprises.”</span>
             </div>
         </div>
     )

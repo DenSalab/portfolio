@@ -1,19 +1,30 @@
 .skillsBlock {
-    background-color: #DDC275;
-    height: 100vh;
+    background-color: #5EDDC1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .skillsContainer{
-    border: 1px dashed grey;
-    height: 100%;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+
+    /*temporary styles*/
+    border: 1px dashed #3A4972;
+    box-sizing: border-box;
 }
 .title{
+    margin: 40px auto;
+    color: #3A4972;
 }
 .skills{
-    border: 1px dashed grey;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    /*temporary styles*/
+    border: 1px dotted #3A4972;
+    box-sizing: border-box;
 }
