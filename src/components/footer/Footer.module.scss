@@ -1,0 +1,29 @@
+@import "./src/common/styles/sass/variables";
+
+.footerBlock {
+  min-height: 30vh;
+  background-color: $primaryColor;
+  display: flex;
+  align-items: center;
+
+  .container {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      color: $accentColor;
+    }
+
+    span {
+      color: $bgSecondColor;
+    }
+
+    .social {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}

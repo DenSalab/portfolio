@@ -1,0 +1,12 @@
+@import "./src/common/styles/sass/variables";
+
+.title {
+  height: 50px;
+  width: 50px;
+  background-color: $bgSecondColor;
+  color: $primaryColor;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0 5px;
+}

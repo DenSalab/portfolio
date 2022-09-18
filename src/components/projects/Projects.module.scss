@@ -1,0 +1,15 @@
+@import "../../common/styles/sass/variables";
+
+.projectsBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+
+  .projectsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 1113px) {
+      justify-content: center;
+    }
+  }
+}

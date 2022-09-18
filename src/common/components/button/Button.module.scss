@@ -1,0 +1,19 @@
+@import "../../styles/sass/variables";
+
+.button {
+  background-color: $bgButton;
+  outline: none;
+  offset: none;
+  min-width: 100px;
+  min-height: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: $colorButton;
+  font-weight: bold;
+  font-size: 1em;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $hoverButton;
+  }
+}

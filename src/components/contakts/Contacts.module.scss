@@ -1,0 +1,43 @@
+@import "./src/common/styles/sass/variables";
+
+.contactsBlock {
+  height: 100vh;
+  background-color: $bgColor;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    .form {
+      box-sizing: border-box;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 10px;
+      height: 70%;
+      width: 500px;
+      background-color: $primaryColor;
+      display: flex;
+
+      input {
+        outline: 0;
+        outline-offset: 0;
+      }
+
+      textarea {
+        width: calc(100% - 2px);
+        height: 60%;
+        resize: none;
+        outline: 0;
+        outline-offset: 0;
+      }
+
+      @media screen and (max-width: 558px) {
+        width: 100%;
+      }
+    }
+  }
+}

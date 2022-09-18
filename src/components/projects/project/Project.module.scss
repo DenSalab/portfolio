@@ -1,0 +1,30 @@
+@import "../../../common/styles/sass/variables";
+
+.workBlock {
+  background-color: $primaryColor;
+  width: 500px;
+
+  .imageContainer {
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    background-color: $bgSecondColor;
+
+    /*temporary styles*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description {
+    padding: 15px;
+    color: $bgSecondColor;
+    h3 {
+      color: $accentColor;
+    }
+  }
+}
+
+
+
+

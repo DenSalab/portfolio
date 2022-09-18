@@ -1,0 +1,32 @@
+@import "../../../common/styles/sass/variables";
+
+.skillBlock {
+  background-color: $bgColor;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  color: $accentColor;
+
+  .icon {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.5em;
+    border-radius: 50%;
+    background-color: $bgSecondColor;
+    color: $bgColor;
+  }
+
+  .description {
+    text-align: center;
+    color: $bgSecondColor;
+  }
+}
+
+
+
